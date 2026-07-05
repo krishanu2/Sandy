@@ -2,6 +2,8 @@ import { CursorProvider } from "./context/CursorContext";
 import CustomCursor from "./components/CustomCursor";
 import Spotlight from "./components/Spotlight";
 import IntroRitual from "./components/IntroRitual";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Pain from "./components/Pain";
 import Transformation from "./components/Transformation";
@@ -18,6 +20,7 @@ export default function App() {
       <CustomCursor />
       <Spotlight />
       <div className="grain-overlay" />
+      <Header />
       <main className="bg-bg">
         <Hero />
         <Pain />
@@ -30,6 +33,7 @@ export default function App() {
         <Offer />
         <Close />
       </main>
+      <Footer />
     </CursorProvider>
   );
 }
