@@ -32,7 +32,7 @@ export default function Hero() {
         <img
           src={heroImg}
           alt="Sandeep Yadav mid-lift in the gym"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-top"
         />
       </motion.div>
 
